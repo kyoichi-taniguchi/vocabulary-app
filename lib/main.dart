@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:test_app/add.dart';
 import 'package:test_app/word.dart';
 
+// githubの連携確認用
+
+
 void main() {
   runApp(const MyApp());
 }
