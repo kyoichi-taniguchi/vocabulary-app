@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-class Add extends StatelessWidget {
+class Word_list extends StatelessWidget {
 
   final Stream<QuerySnapshot> _usersStream = FirebaseFirestore.instance.collection('words').snapshots();
 
